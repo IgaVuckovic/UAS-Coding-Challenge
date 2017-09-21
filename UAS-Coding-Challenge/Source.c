@@ -55,7 +55,7 @@ void sort(const int *unsorted, int *sorted, int length)
 			sorted[i+k] = smallest_num;
 		i += num_duplicates;
 		num_duplicates = 0;
-		previous_num = smallest_num;											// Assigns smallest_num to previous_num to keep track of which numbers have been moved
+		previous_num = smallest_num;										    // Assigns smallest_num to previous_num to keep track of which numbers have been moved
 	}
 	return;
 }
